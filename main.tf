@@ -15,6 +15,7 @@ terraform {
     region         = "us-east-2"
     key            = "terraform.tfstate"
     dynamodb_table = "terraform-tfstate"
+    role_arn = "arn:aws:iam::349739699720:user/terraform"
     # secret_key     = var.secret_key
     # access_key     = var.access_key
 
