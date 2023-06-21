@@ -16,16 +16,8 @@ terraform {
     key            = "terraform.tfstate"
     dynamodb_table = "terraform-tfstate"
     role_arn = "arn:aws:iam::349739699720:user/terraform"
-    # secret_key     = var.secret_key
-    # access_key     = var.access_key
-
   }
-  #   backend "s3" {
-  #       bucket = "pjd-prod-terraform-state-v2"
-  #       key = "state/terraform.tfstate"
-  #       dynamodb_table = "pjd-terraform-state-prod"
-  #       role_arn = "arn:aws:iam::717018144574:role/pjd_terraform_state_manage_role"
-  #   }
+  
 }
 
 
