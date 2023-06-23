@@ -14,9 +14,7 @@ variable "instance_type" {
 variable "access_key" {
   type = string
 }
-variable "secret_key" {
-  type = string
-}
+
 variable "vpc_cidr" {
   type = string
 }

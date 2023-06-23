@@ -27,8 +27,6 @@ module "finalProject" {
   ports                      = var.ports
   image_id                   = var.image_id
   instance_type              = var.instance_type
-  access_key                 = var.access_key
-  secret_key                 = var.secret_key
   vpc_cidr                   = var.vpc_cidr
   public_subnet_cidrs        = var.public_subnet_cidrs
   private_subnet_cidrs       = var.private_subnet_cidrs
