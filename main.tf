@@ -15,7 +15,7 @@ terraform {
     region         = "us-east-2"
     key            = "terraform.tfstate"
     dynamodb_table = "terraform-tfstate"
-    role_arn = "arn:aws:iam::349739699720:user/terraform"
+    role_arn = "arn:aws:iam::349739699720:role/service-role/terraform-infra"
   }
   
 }
